@@ -1,0 +1,393 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400&display=swap');
+
+body {
+    font-family: 'Noto Serif', serif;
+    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    margin-top: 20px;
+    position: relative;
+}
+nav {
+   margin-left: 100px;
+
+}
+
+nav>ul>li {
+    display: inline;
+    list-style: none;
+   
+}
+
+ul>li>a {
+    Font-size: 15px;
+    font-weight: 700;
+    Line-height: 21.6667px;
+    color: rgb(29, 29, 29);
+    text-decoration: none;
+    margin: 0 40px;
+}
+
+#button {
+    padding: 5px 10px;
+    margin: 0 5px;
+    outline: none;
+    border: none;
+cursor: pointer;
+    background-color: rgb(20, 231, 231);
+    border-radius: 5px;
+}
+
+#buttn {
+    margin-left: 30px;
+
+}
+
+#section {
+    position: relative;
+    text-align: center;
+    margin: 10% 0%;
+    width: 100%;
+    height: 50vh;
+}
+span::before{
+    content: '';
+    animation: animate infinite 8s;
+}
+@keyframes animate {
+  
+    15%{
+        content: 'work ';
+        color: rgb(9, 9, 128);
+    }
+    30%{
+        content: 'closing deals ';
+        color: black;
+    }
+    45%{
+        content: 'shipping codes ';
+        color: rgb(156, 8, 77);
+    }
+    60%{
+        content: 'helping clients ';
+    }
+    75%{
+        content: 'making hires ';
+        color: rgb(4, 95, 131);
+    }
+    100%{
+        content: 'breaking news ';
+        color: rgb(3, 51, 24);
+    }
+}
+
+#section>h1 {
+    font-size: 60px;
+    Font-weight: 900;
+    Line-height: normal;
+transition: ease-out 1s;
+}
+#section>h1:hover{
+    
+}
+
+#smileys :nth-child(1) {
+    position: absolute;
+    top: 0;
+    left: 0%;
+}
+
+#smileys :nth-child(2) {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+
+#smileys :nth-child(3) {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+}
+
+#smileys :nth-child(4) {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#smileys :nth-child(5) {
+    position: absolute;
+    top: 30%;
+    right: 10%;
+}
+
+#smileys :nth-child(6) {
+    position: absolute;
+    top: 50%;
+    right: 20%;
+}
+
+.sec-button,
+.kind>div, h2 {
+    margin-top: 15px;
+}
+
+.sec-button>#button {
+    padding: 20px;
+}
+#main{
+    position: relative;
+    width: 100%; 
+    background-color: #f4ede4;
+}
+.kind {
+    display: flex; 
+    position: relative;
+}
+
+.kind>div {
+    width: 50%;
+    margin: 50px;
+}
+.kind>div>h1 {
+    Font-size: 32px;
+     Font-weight: 700;
+      Line-height: 38px
+}
+.kind>div>p {
+    margin-top: 20px;
+}
+.kind>.image{
+    position: absolute;
+    top: -40%;
+    right: 3%;
+}
+.king>#img{
+    position: relative;
+}
+.cards{
+display: flex;
+}
+.card:hover,.car:hover{
+    color: red;
+    
+}
+.card{
+    background: rgba(255, 253, 253, 0.918);
+    box-shadow: 0px 1px 0px 2px rgba(0, 0, 0, 0.068);
+    width: 30%;
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+}
+#card{
+margin-left: 3%;
+ 
+}
+.big{
+    display: flex;
+    flex-direction: column;
+ justify-content: space-between;
+    width: 30%;
+   padding: 5px;
+   margin-right:2% ;
+
+  
+}
+.card2{
+    position: absolute;
+    top: 70%;
+    left: 30%;
+}
+.car{
+    background: white;
+    width: 285px;
+    height: 50%;
+    padding: 5px;
+  position: relative;
+    margin: 5px 5px 5px 0px; 
+}
+#card,#card2{
+    width: 70%;
+}
+#card2{
+    position: absolute;
+    width: 70%;
+    top: 6=70%;
+}
+#menubtn,.closeMenu{
+    display: none;
+}
+.review,#close{
+    cursor: pointer;
+}
+
+#close{
+    padding: 0px 10px;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    color: red;
+    height: fit-content;
+   position: absolute; 
+          right: 0;
+          top: 1%;
+}
+#arrow{
+    width: 1.5%;
+}
+#faq{
+    margin: 3rem;
+}
+#faq>h2{
+    margin-bottom: 3rem;
+    text-align: center;
+}
+.faq{
+    width: 90%;
+    border-bottom: 1px solid rgb(213, 216, 215);
+}
+#br{
+    display: flex;
+    justify-content: space-between;
+    font-weight:bold ;
+
+}
+.faq>div{
+    padding: 3rem 0rem ;
+    border-top: 1px solid rgb(213, 216, 215);
+   
+    cursor: pointer;
+}
+
+.txt{
+    display: none;
+}
+.slideCont{
+    width: 18%;
+    border: 2px solid rgb(238, 141, 15);
+    padding: 10px;
+display: inline-flex;
+overflow-x: hidden;
+margin-left: 33rem ;
+margin-top:5rem ;
+}
+.carousel{
+    width: 100%;
+    
+flex-direction:column ;
+margin-right:7px ;
+
+}
+.btn{
+    width: 12px;
+    height: 12px;
+   cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    background-color: cadetblue;
+  margin-right: 15px;
+}
+.carlbtn{
+    margin: 2rem 0 3rem 38rem;
+}
+footer{
+    background-color: rgb(202, 202, 202);
+}
+@media screen and (max-width:865px) {
+    nav>ul>li {
+      display: block;
+    }
+ 
+    header {
+    justify-content: space-between;
+    }
+   #button{
+    margin: 5px 12px;
+    }
+    #menubtn{
+        display: block;
+        width: 7%;
+    }
+    header>img{
+        width: 25%;
+        height: 30px;
+    }
+    ul>li {
+     padding: 30px 0px;
+      
+    }
+    nav{
+        background-color: rgb(189, 189, 189);
+      
+    }
+
+    .review{
+         display: none; 
+    }
+    #smileys :nth-child(1) {
+        position: absolute;
+        top: -20%;
+        left: 0%;
+    }
+    .big{
+        margin-left: 12%;
+    }
+    #arrow{
+        width: 3%;
+    }
+    #smileys :nth-child(4) {
+        position: absolute;
+        top: -20%;
+        right: 0;
+    }
+    #smileys :nth-child(3),
+    #smileys :nth-child(5),
+    #smileys :nth-child(6),
+    #smileys :nth-child(2)
+    {
+       display: none;}
+  
+    
+#section{
+    margin: 30% 0%;
+  
+}    
+.kind>.image{
+   width: 100%;
+  
+   position: relative;
+   
+} 
+.kind>div{
+   width: 90%;
+   background-color: white;
+   margin-left: 10px;
+   padding: 10px;
+}
+.cards{
+    flex-direction: column;
+
+}.card{
+    width: 100%;align-items: center;
+    justify-content: center;
+    
+    margin-left: 50px;
+}
+.kind{
+  display: inline;
+  overflow-x: hidden;
+}
+.card2{
+  min-height: fit-content;
+  border: 2px solid;
+    top: 100%;
+    left: 0%;
+}
+}
