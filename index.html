@@ -21,14 +21,14 @@
         <nav id='navMenu' class="review">
 
             <ul>
-                <li><a href="">Product</a></li>
-                <li><a href="">Solutions</a></li>
-                <li><a href="">FAQs</a></li>
-                <li><a href="">Testimonials</a></li>
-                <li><a href="">Footer</a></li>
-                <li>
-                    <button id="button">TALK TO SALES</button>
-                    <button id="button"> LAUNCH SLACK</button></li>
+                <li id="li"><a href="">Product</a></li>
+                <li id="li"><a href="">Solutions</a></li>
+                <li id="li"><a href="">FAQs</a></li>
+                <li id="li"><a href="">Testimonials</a></li>
+                <li id="li"><a href="">Contact</a></li>
+                <li id="btli">
+                    <button class="bc" id="button">TALK TO SALES</button>
+                    <button class="nbc" id="button"> LAUNCH SLACK</button></li>
             </ul>
         </nav>
         <button class="closeMenu" id="close">x</button>
@@ -38,8 +38,8 @@
     <section id="section">
         <h1>Where <span id=""></span>happen</h1>
         <p class="sec-button">whatever work you do you can use slack for your business</p>
-        <div class="sec-button"><button id="button">TRY SLACK</button>
-            <button id="button">CONTACT SALES</button> </div>
+        <div class="sec-button"><button class="nbc" id="button">TRY SLACK</button>
+            <button  class="bc" id="button">CONTACT SALES</button> </div>
         <div id="smileys">
             <img src="images/emoji-clap.png" alt="" srcset="">
             <img src="images/emoji-raised-hands.png" alt="" srcset="">
@@ -69,7 +69,7 @@
             <div class="cards">
                 <div class="card">
                     <img src="images/icon-any-file.svg" alt="">
-                    <h2>IT</h2>
+                    <h4>IT</h4>
                     <p>Resolve urgent issues, automate your workflows and keep users
                         educated, all in less time
                     </p>
@@ -77,14 +77,14 @@
 
                 <div class="card">
                     <img src="images/icon-collaboration.svg" alt="">
-                    <h2>Sales</h2>
+                    <h4>Sales</h4>
                     <p>Coordinate with your internal team while working towards new
                         deals with clients, all together in Slack
                     </p>
                 </div>
                 <div class="card">
                     <img src="images/icon-any-file.svg" alt="">
-                    <h2>Project Management</h2>
+                    <h4>Project Management</h4>
                     <p>Release better code faster by bringing
                         developers,code changes, and tools into organized place.
                     </p>
@@ -95,7 +95,7 @@
             <div class="cards ">
                 <div class="card">
                     <img src="images/icon-any-file.svg" alt="">
-                    <h2>Engineering</h2>
+                    <h4>Engineering</h4>
                     <p>Release better code faster by bringing
                         developers,code changes, and tools into organized place.
                     </p>
@@ -104,29 +104,87 @@
                 <div class="big">
                     <div class="car">
                         <img src="images/icon-collaboration.svg" width="%">
-                        <h2>Project Management</h2>
+                        <h4>Project Management</h4>
                     </div>
 
                     <div class="car">
                         <img src="images/icon-any-file.svg" width="%">
-                        <h2>Maarketing</h2>
+                        <h4>Marketing</h4>
                     </div>
                 </div>
                 <div class="big">
                     <div class="car">
                         <img src="images/icon-collaboration.svg" width="%">
-                        <h2>Engineering</h2>
+                        <h4>Engineering</h4>
                     </div>
 
                     <div class="car">
                         <img src="images/icon-any-file.svg" width="%">
-                        <h2>Engineering</h2>
+                        <h4>Engineering</h4>
                     </div>
                 </div>
 
             </div>
         </div>
     </section>
+
+
+ <!--testimonials-->
+    <section id="test">
+        <h3 style="text-align: center;">Learn how real companies get real results with Slack
+        </h3>
+        <div class="slideCont">
+<div class="carousel">
+    <img src="images/imgslack.jpg" alt="">
+    <small>Customer story</small>
+    <h4>Snowflake boosts sales and 
+        crystalizes partner relationships with Slack Connect
+    </h4>
+    <div style="color: red;">READ STORY <img src="" alt=""></div>
+</div>
+<div class="carousel">
+    <img src="images/slack2.jpg" alt="">
+    <small>Customer story</small>
+    <h4>Snowflake boosts sales and 
+        crystalizes partner relationships with Slack Connect
+    </h4>
+    <div style="color: red;">READ STORY <img src="" alt=""></div>
+</div>
+<div class="carousel">
+    <img src="images/slack3.jpg" alt="">
+    <small>Customer story</small>
+    <h4>Snowflake boosts sales and 
+        crystalizes partner relationships with Slack Connect
+    </h4>
+    <div style="color: red;">READ STORY <img src="" alt=""></div>
+</div>
+<div class="carousel">
+    <img src="images/slack2.jpg" alt="">
+    <small>Customer story</small>
+    <h4>Snowflake boosts sales and 
+        crystalizes partner relationships with Slack Connect
+    </h4>
+    <div style="color: red;">READ STORY <img src="" alt=""></div>
+</div>
+        </div>
+<div class="carlbtn">
+   <button class="btn btn1"></button>
+   <button class="btn btn2"></button>
+   <button class="btn btn3"></button>
+   <button class="btn btn4"></button>
+</div>
+        
+    </section>
+<!--partners-->
+<div class="partners">
+<img src="images/logo-expedia.png" alt="" srcset="">
+<img src="images/logo-netflix.png" alt="">
+<img src="images/oracle-logo.png" alt="">
+<img src="images/outlook.png" alt="">
+<img src="images/uber.png" alt="">
+<img src="images/salesforce.png" alt="">
+<img src="images/logo-expedia.png" alt="" srcset="">
+</div>
 <!--fAq-->
     <section id="faq">
         <h2>Frequently asked questions?</h2>
@@ -176,44 +234,7 @@
             </div>
         </div>
     </section>
-    <!--testimonials-->
-    <section>
-        <h3 style="text-align: center;">Learn how real companies get real results with Slack
-        </h3>
-        <div class="slideCont">
-<div class="carousel">
-    <img src="images/imgslack.jpg" alt="">
-    <small>Customer story</small>
-    <p>Snowflake boosts sales and 
-        crystalizes partner relationships with Slack Connect
-    </p>
-    <div>READ STORY <img src="" alt=""></div>
-</div>
-<div class="carousel">
-    <img src="images/slack2.jpg" alt="">
-    <small>Customer story</small>
-    <p>Snowflake boosts sales and 
-        crystalizes partner relationships with Slack Connect
-    </p>
-    <div>READ STORY <img src="" alt=""></div>
-</div>
-<div class="carousel">
-    <img src="images/slack3.jpg" alt="">
-    <small>Customer story</small>
-    <p>Snowflake boosts sales and 
-        crystalizes partner relationships with Slack Connect
-    </p>
-    <div>READ STORY <img src="" alt=""></div>
-</div>
-        </div>
-<div class="carlbtn">
-   <button class="btn btn1"></button>
-   <button class="btn btn2"></button>
-   <button class="btn btn3"></button>
-   <button class="btn btn4"></button>
-</div>
-        
-    </section>
+   
 <footer>
 
 </footer>
