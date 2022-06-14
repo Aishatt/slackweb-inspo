@@ -1,0 +1,2 @@
+# slackweb-inspo
+Practical website
